@@ -29,7 +29,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
+                        <div class="navbar-nav ms-auto">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                             <a class="nav-link" href="#">About us</a>
                             <a class="nav-link" href="#">Contact</a>
@@ -57,7 +57,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="images/banner-1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block banner-img mb-5">
+                        <div class="carousel-caption banner-img mb-5">
                             <h5 class="fs-2">Perfect venue for your next event</h5>
                             <p>Looking for a beautiful place for your wedding!</p>
                             <a href=""><button type="button" class="btn btn-primary">Book Now</button></a>
@@ -65,7 +65,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block banner-img mb-5">
+                        <div class="carousel-caption banner-img mb-5">
                             <h5 class="fs-2">Perfect venue for your next event</h5>
                             <p>Looking for a beautiful place for your wedding!</p>
                             <button type="button" class="btn btn-primary">Book Now</button>
@@ -73,7 +73,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="images/banner-3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block banner-img mb-5">
+                        <div class="carousel-caption banner-img mb-5">
                             <h5 class="fs-2">Perfect venue for your next event</h5>
                             <p>Looking for a beautiful place for your wedding!</p>
                             <button type="button" class="btn btn-primary">Book Now</button>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="images/banner-4.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block banner-img mb-5">
+                        <div class="carousel-caption banner-img mb-5">
                             <h5 class="fs-2">Perfect venue for your next event</h5>
                             <p>Looking for a beautiful place for your wedding!</p>
                             <button type="button" class="btn btn-primary">Book Now</button>
@@ -153,7 +153,11 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="p-3 rounded-3 bg-primary">
+                        <div class="p-3 rounded-3 bg-primary position-relative">
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                Hot
+                            </span>
                             <div class="text-white">
                                 <h2>$300</h2>
                                 <h4 class="fw-bold">Business fair</h4>
@@ -197,6 +201,104 @@
             </div>
         </section>
 
+        <!-- Our Package Ends -->
+
+        <!-- Toast Message  -->
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+        <!-- Frequently Asked Questions -->
+
+        <section>
+            <div class="container px-4">
+                <div class="row gx-5">
+                    <div class="col">
+                        <div class="p-3 border bg-light">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Accordion Item #1
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to
+                                            demonstrate the <code>.accordion-flush</code> class. This is the first
+                                            item's
+                                            accordion
+                                            body.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to
+                                            demonstrate the <code>.accordion-flush</code> class. This is the second
+                                            item's
+                                            accordion
+                                            body. Let's imagine this being filled with some actual content.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to
+                                            demonstrate the <code>.accordion-flush</code> class. This is the third
+                                            item's
+                                            accordion
+                                            body. Nothing more exciting happening here in terms of content, but just
+                                            filling
+                                            up the
+                                            space to make it look, at least at first glance, a bit more representative
+                                            of
+                                            how this
+                                            would look in a real-world application.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3">
+                            <div>
+                                <img src="images/question.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
 
 
 
@@ -205,6 +307,36 @@
 
     <!-- Footer strats -->
     <footer>
+        <div>
+            <p>© 2020 bike. All rights reserved</p>
+        </div>
+
+        <div>
+            <h4>Get the App</h4>
+            <div>
+                <a href="https://apps.apple.com/us/app/dont-let-pigeon-run-this-app/id459749670">
+                    <Button
+                        class="d-flex justify-content-center align-items-center p-2 border-dark bg-dark text-white choose-btn1 rounded-3">
+                        <i class="fab fa-apple"></i>
+                        <div class="ps-4">
+                            <p>Downloan On This</p>
+                            <h4>App Store</h4>
+                        </div>
+                    </Button></a>
+            </div>
+            <div>
+                <a href="https://play.google.com/store/apps/details?id=com.ticktick.task">
+                    <Button
+                        class="d-flex justify-content-center align-items-center p-2 border-dark bg-dark text-white choose-btn1 rounded-3">
+                        <i class="fab fa-apple"></i>
+                        <div class="ps-4">
+                            <p>GET IT ON</p>
+                            <h4>Google Play</h4>
+                        </div>
+                    </Button></a>
+            </div>
+
+        </div>
 
     </footer>
     <!-- Footer Ends-->
