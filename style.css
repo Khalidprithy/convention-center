@@ -1,0 +1,19 @@
+.banner-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    border-radius: 5px;
+}
+
+.choose-btn1 {
+    display: inline-block;
+    text-decoration: none;
+    background: #f5dbeb;
+    color: #3F87F5;
+    border: 0;
+    padding: 10px 34px;
+    position: relative;
+}
+
+.choose-btn1:hover {
+    background: #F496D1;
+    transition: 1s;
+}
