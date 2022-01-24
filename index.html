@@ -13,6 +13,11 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- font awesome link  -->
     <script src="https://kit.fontawesome.com/22d85c5165.js" crossorigin="anonymous"></script>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -33,15 +38,15 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto ">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#shoes">Shoes</a>
-                        <a class="nav-link" href="#backpack">Backpack</a>
-                        <a class="nav-link" href="#subscribe">Subscribe</a>
+                        <a class="nav-link" href="#package">Package</a>
+                        <a class="nav-link" href="#question">Questions</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
                     </div>
                 </div>
             </div>
         </nav>
         <!-- image slider -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide me-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -53,22 +58,22 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/banner-1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption ">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                    <div class="carousel-caption banner-bg">
+                        <h5>Best place in town for any event</h5>
+                        <p>Book our surviese for the best experience and make momories</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h5>Second slide label</h5>
+                    <div class="carousel-caption banner-bg">
+                        <h5>Special discount for wedding events</h5>
                         <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/banner-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h5>Third slide label</h5>
+                    <div class="carousel-caption banner-bg">
+                        <h5>Your dream event our responsibility</h5>
                         <p>Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
@@ -104,24 +109,25 @@
     <!-- main starts  -->
     <main>
         <!-- Our package  -->
-        <section class="container mt-5">
+        <section class="container" id="package">
+            <h2 class="text-center py-4">Our Packages</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                 <div class="col">
                     <div class="card package-card border-0 shadow-lg h-100">
                         <div class="card-body">
                             <h4>$300</h4>
                             <h5 class="card-title">Business fair</h5>
-                            <p class="card-text">For most business .</p>
+                            <p class="card-text">For most business event like book fair, trade fair, tech events.</p>
                             <ul class="list-unstyled fw-lighter">
                                 <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
+                                <li><i class="far fa-check-circle"></i> Security facility</li>
+                                <li><i class="far fa-check-circle"></i> Event support</li>
+                                <li><i class="far fa-check-circle"></i> Decoration design</li>
+                                <li><i class="far fa-check-circle"></i> Pay as shift</li>
                             </ul>
                         </div>
                         <div class="m-3">
-                            <button class="choose-plan-btn w-100">Choose plan</button>
+                            <button class="choose-plan-btn fw-bold w-100">Choose plan</button>
                         </div>
                     </div>
                 </div>
@@ -129,20 +135,18 @@
                     <div class="card package-card border-0 shadow-lg h-100">
                         <div class="card-body">
                             <h4>$300</h4>
-                            <h5 class="card-title">Supply 350</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural
-                                lead-in to
-                                additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Business fair</h5>
+                            <p class="card-text">For most business event like book fair, trade fair, tech events.</p>
                             <ul class="list-unstyled fw-lighter">
                                 <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
+                                <li><i class="far fa-check-circle"></i> Security facility</li>
+                                <li><i class="far fa-check-circle"></i> Event support</li>
+                                <li><i class="far fa-check-circle"></i> Decoration design</li>
+                                <li><i class="far fa-check-circle"></i> Pay as shift</li>
                             </ul>
                         </div>
                         <div class="m-3">
-                            <button class="panda-buy-now-btn w-100">Buy Now</button>
+                            <button class="choose-plan-btn fw-bold w-100">Choose plan</button>
                         </div>
                     </div>
                 </div>
@@ -167,28 +171,26 @@
                             </ul>
                         </div>
                         <div class="m-3">
-                            <button class="panda-buy-now-btn w-100">Buy Now</button>
+                            <button class="choose-plan-btn fw-bold w-100">Choose plan</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card border-0 shadow-lg h-100">
+                    <div class="card package-card border-0 shadow-lg h-100">
                         <div class="card-body">
                             <h4>$300</h4>
-                            <h5 class="card-title">Supply 350</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural
-                                lead-in to
-                                additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Business fair</h5>
+                            <p class="card-text">For most business event like book fair, trade fair, tech events.</p>
                             <ul class="list-unstyled fw-lighter">
                                 <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
-                                <li><i class="far fa-check-circle"></i> Limited space access</li>
+                                <li><i class="far fa-check-circle"></i> Security facility</li>
+                                <li><i class="far fa-check-circle"></i> Event support</li>
+                                <li><i class="far fa-check-circle"></i> Decoration design</li>
+                                <li><i class="far fa-check-circle"></i> Pay as shift</li>
                             </ul>
                         </div>
                         <div class="m-3">
-                            <button class="panda-buy-now-btn w-100">Buy Now</button>
+                            <button class="choose-plan-btn fw-bold w-100">Choose plan</button>
                         </div>
                     </div>
                 </div>
@@ -197,27 +199,23 @@
 
         <!-- Frequntly Asked Question  -->
 
-        <section class="container my-5" id="backpack">
-            <h1>Bagpack</h1>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+        <section class="container my-5" id="question">
+            <h2 class="text-center">Frequently Asked Questions</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2  mt-2 g-4">
                 <div class="col">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Accordion Item #1
+                                    Where is this place located?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing
-                                    and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or
-                                    overriding
-
+                                    Our Convention is located on the west side of the city beside the river. This is one
+                                    of the best place in the town where you can place your event.
                                 </div>
                             </div>
                         </div>
@@ -225,18 +223,14 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                    What kind of services you offer?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing
-                                    and
-                                    our default variables. It's also worth noting that just about any HTML can go
-                                    within
-
+                                    We offer all kind of facilities and services needed to make your event successful.
+                                    We have over 200+ stuffs, decoretion team, management team, best sequrity.
                                 </div>
                             </div>
                         </div>
@@ -244,19 +238,16 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Accordion Item #3
+                                    Do you provide well food?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    unthe appropriate classes that we use to style each
-                                    elemrall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or
-                                    overriding
-                                    our default variables. It's also worth noting that just about any HTML can go
-                                    within
-                                    the ough the transition does limit overflow.
+                                    Absolutely, we have world class cheffs. We emphasize on give you healthy and best
+                                    food. We believe Safe food handling practices and procedures are thus implemented at
+                                    every stage of the food production life cycle in order to curb these risks and
+                                    prevent harm to consumers.
                                 </div>
                             </div>
                         </div>
@@ -271,12 +262,39 @@
         </section>
 
         <!-- Photo gallery -->
-        <section class="container">
-            <h1 class="text-center">Photo gallery</h1>
+        <section class="container" id="gallery">
+            <div class="py-4">
+                <h1 class="text-center">Photo gallery</h1>
+            </div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card shadow-lg gallery-img">
-                        <img src="images/people.png" class="card-img-top" alt="...">
+                <div class="col overflow-hidden">
+                    <div class="card border-0 shadow-lg gallery-img">
+                        <img src="images/gallary/gallary (1).jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col overflow-hidden">
+                    <div class="card border-0 shadow-lg gallery-img">
+                        <img src="images/gallary/garllary (2).jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col overflow-hidden">
+                    <div class="card border-0 shadow-lg gallery-img">
+                        <img src="images/gallary/gallary (3).jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col overflow-hidden">
+                    <div class="card border-0 shadow-lg gallery-img">
+                        <img src="images/gallary/gallary (4).jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col overflow-hidden">
+                    <div class="card border-0 shadow-lg gallery-img">
+                        <img src="images/gallary/gallary (5).jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col overflow-hidden">
+                    <div class="card border-0 shadow-lg gallery-img">
+                        <img src="images/gallary/gallary (6).jpg" class="card-img-top" alt="...">
                     </div>
                 </div>
 
@@ -290,21 +308,19 @@
 
     <!-- footer starts  -->
 
-    <footer class="mt-5 bg-success text-center">
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="">
-                <p><small>©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
-            </div>
-
-            <div">
-                <h4>Get the App</h4>
-                <div class="d-inline">
-                    <a href=""><img src="icons/google-app-store.png" alt=""></a>
-                    <a href=""><img src="icons/apple-app-store.png" alt=""></a>
+    <footer>
+        <div class="container pt-4">
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    <p><small>© 2020 bike. All rights reserved</small></p>
                 </div>
+                <div class="d-flex flex-column">
+                    <h6>Get The App</h6>
+                    <a href=""><img src="icons/google-play.png" class="w-50" alt=""></a>
+                    <a href=""><img src="icons/apple-app.png" class="pt-2 w-50" alt=""></a>
+                </div>
+            </div>
         </div>
-        </div>
-
     </footer>
 
     <!-- bootstrap jS bundle link  -->

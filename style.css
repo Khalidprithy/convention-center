@@ -1,3 +1,9 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+
 .banner-bg {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
     border-radius: 5px;
@@ -15,18 +21,17 @@
 }
 
 .choose-plan-btn:hover {
-    background-color: aquamarine;
+    background-color: #F496D1;
 }
 
 .package-card {
-    border-radius: 25px;
+    border-radius: 0px;
     background-color: white;
     transition: 1s;
-
 }
 
 .package-card:hover {
-    background-color: blue;
+    background-color: #3F87F5;
     color: white;
     transform: scale(1.1);
 }
@@ -38,4 +43,10 @@
 .gallery-img:hover {
     transform: scale(1.2);
 
+}
+
+footer {
+    height: 200px;
+    background: #0B0D17;
+    color: rgb(184, 184, 184);
 }
