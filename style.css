@@ -1,19 +1,41 @@
-.banner-img {
+.banner-bg {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
     border-radius: 5px;
 }
 
-.choose-btn1 {
-    display: inline-block;
-    text-decoration: none;
-    background: #f5dbeb;
-    color: #3F87F5;
-    border: 0;
-    padding: 10px 34px;
-    position: relative;
+.hot-badge {
+    margin-left: -50px;
 }
 
-.choose-btn1:hover {
-    background: #F496D1;
+.choose-plan-btn {
+    border-radius: 15px;
+    border: 0;
+    padding: 5px;
+
+}
+
+.choose-plan-btn:hover {
+    background-color: aquamarine;
+}
+
+.package-card {
+    border-radius: 25px;
+    background-color: white;
     transition: 1s;
+
+}
+
+.package-card:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+}
+
+.gallery-img {
+    transition: 1s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.2);
+
 }
